@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyApp';
+  serverName='MyServer';
+  serverId=10;
+  serverStatus=true;
+
+  getServerStatus(){
+    return this.serverStatus;
+  }
+
+
 }
